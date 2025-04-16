@@ -1,0 +1,70 @@
+/* Container for the Orders page */
+.orders-page {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Title of the page */
+.page-title {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Display the total orders count */
+.order-count {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Error message */
+.error {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Loading message */
+.loading {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Table styling */
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.orders-table th,
+.orders-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Styling for table headers */
+.orders-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+/* Row hover effect */
+.orders-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* No orders found message */
+.no-orders {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+}
